@@ -7,11 +7,11 @@ public class TestStatistics {
 
         int[] testScores = {67, 73, 81, 92, 65, 99, 70, 83, 74, 95}; // 10 Test Scores
 
-        int average = 0;
+        int sum = 0;
         for (int score : testScores) {
-            average += score;
+            sum += score;
         }
-        int totalAverage = (average / testScores.length); // Finds average test score
+        int totalAverage = (sum / testScores.length); // Finds average test score
 
         System.out.println("Total Average: " + totalAverage); // Prints total average score
 
@@ -28,6 +28,8 @@ public class TestStatistics {
                 lowScore = score;
         }
         System.out.println("Lowest Score: " + lowScore); // Prints lowest value
+
+
 
 
     }
